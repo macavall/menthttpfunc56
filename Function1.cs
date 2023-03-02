@@ -11,7 +11,7 @@ namespace menthttpfunc56
         static HttpClient client = new HttpClient();
         static readonly int LoopCount = Convert.ToInt32(Environment.GetEnvironmentVariable("LoopCount"));
         static readonly int SemaphoreCount = Convert.ToInt32(Environment.GetEnvironmentVariable("SemaphoreCount"));
-        static readonly string url = "https://" + Environment.GetEnvironmentVariable("WEBSITE_HOSTNAME");
+        static readonly string url = "https://" + Environment.GetEnvironmentVariable("WEBSITE_HOSTNAME");  // test
 
 
         public Function1(ILoggerFactory loggerFactory)
